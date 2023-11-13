@@ -38,6 +38,19 @@ public class Main {
 * INSERT THREAD AND RUN
 *   - Why? Since current the Game loop is bad practice ang causes lag. It overlaps with various process. It must be streamlined
 *
+* private int aniTick = 0
+*   - Counts how many tick before the second frame
 *
+* private int aniIdx
+*   - Sprite sheet is stored in a 2d array.
+*
+* private int aniSpeed = 8
+*   - How fast frames are replaced. Lower the speed the faster the animation is played
+*
+* private int playerDir = -1;
+*   - Default value so that image would not immediately choose a direction
+*
+* private boolean moving = false;
+*   - Make the animation idle
 * */
 
